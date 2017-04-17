@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_statistics"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ua.a5.sourceit_userage.StatisticsActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: " />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Name" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age: " />
+
+        <TextView
+            android:id="@+id/tv_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Age" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_numberofdays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Approximate number of days: " />
+
+        <TextView
+            android:id="@+id/tv_number_of_days"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Number of days" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_numberofseconds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Approximate number of seconds: " />
+
+        <TextView
+            android:id="@+id/tv_number_of_seconds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Number of seconds" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_zodiac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zodiac: " />
+
+        <TextView
+            android:id="@+id/tv_zodiac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Zodiac" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
